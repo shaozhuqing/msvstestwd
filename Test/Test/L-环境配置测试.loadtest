@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<LoadTest Name="环境配置测试" Description="" Owner="" storage="f:\luping\压测脚本\test\test\环境配置测试.loadtest" Priority="2147483647" Enabled="true" CssProjectStructure="" CssIteration="" DeploymentItemsEditable="" WorkItemIds="" TraceLevel="None" CurrentRunConfig="运行设置1" Id="4ebed1c1-5c6a-4807-a068-054c45e68e5a" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+<LoadTest Name="环境配置测试" Description="" Owner="" storage="c:\users\administrator\source\repos\msvstestwd\test\test\环境配置测试.loadtest" Priority="2147483647" Enabled="true" CssProjectStructure="" CssIteration="" DeploymentItemsEditable="" WorkItemIds="" TraceLevel="None" CurrentRunConfig="运行设置1" Id="4ebed1c1-5c6a-4807-a068-054c45e68e5a" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
   <Scenarios>
     <Scenario Name="环境配置" DelayBetweenIterations="0" PercentNewUsers="0" IPSwitching="false" TestMixType="PercentageOfUsersRunning" ApplyDistributionToPacingDelay="true" MaxTestIterations="0" DisableDuringWarmup="false" DelayStartTime="0" AllowedAgents="">
       <ThinkProfile Value="0.2" Pattern="NormalDistribution" />
@@ -421,7 +421,7 @@
     </CounterSet>
   </CounterSets>
   <RunConfigurations>
-    <RunConfiguration Name="运行设置1" Description="" ResultsStoreType="Database" TimingDetailsStorage="AllIndividualDetails" SaveTestLogsOnError="true" SaveTestLogsFrequency="0" MaxErrorDetails="200" MaxErrorsPerType="1000" MaxThresholdViolations="1000" MaxRequestUrlsReported="1000" UseTestIterations="false" RunDuration="30" WarmupTime="0" CoolDownTime="0" TestIterations="100" WebTestConnectionModel="ConnectionPerUser" WebTestConnectionPoolSize="50" SampleRate="15" ValidationLevel="High" SqlTracingConnectString="" SqlTracingConnectStringDisplayValue="" SqlTracingDirectory="" SqlTracingEnabled="false" SqlTracingFileCount="2" SqlTracingRolloverEnabled="true" SqlTracingMinimumDuration="500" RunUnitTestsInAppDomain="true" CoreCount="0" ResourcesRetentionTimeInMinutes="0" AgentDiagnosticsLevel="Warning">
+    <RunConfiguration Name="运行设置1" Description="" ResultsStoreType="Database" TimingDetailsStorage="AllIndividualDetails" SaveTestLogsOnError="true" SaveTestLogsFrequency="0" MaxErrorDetails="200" MaxErrorsPerType="1000" MaxThresholdViolations="1000" MaxRequestUrlsReported="1000" UseTestIterations="false" RunDuration="300" WarmupTime="0" CoolDownTime="0" TestIterations="100" WebTestConnectionModel="ConnectionPerUser" WebTestConnectionPoolSize="50" SampleRate="15" ValidationLevel="High" SqlTracingConnectString="" SqlTracingConnectStringDisplayValue="" SqlTracingDirectory="" SqlTracingEnabled="false" SqlTracingFileCount="2" SqlTracingRolloverEnabled="true" SqlTracingMinimumDuration="500" RunUnitTestsInAppDomain="true" CoreCount="0" ResourcesRetentionTimeInMinutes="0" AgentDiagnosticsLevel="Warning">
       <CounterSetMappings>
         <CounterSetMapping ComputerName="[CONTROLLER MACHINE]">
           <CounterSetReferences>

@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<LoadTest Name="LoadTest1" Description="" Owner="" storage="f:\luping\压测脚本\test\test\loadtest1.loadtest" Priority="2147483647" Enabled="true" CssProjectStructure="" CssIteration="" DeploymentItemsEditable="" WorkItemIds="" TraceLevel="None" CurrentRunConfig="运行设置1" Id="6ceea9dd-aedd-41f6-bd0a-49d8fa2769a3" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+<LoadTest Name="LoadTest1" Description="" Owner="" storage="c:\users\administrator\source\repos\msvstestwd\test\test\loadtest1.loadtest" Priority="2147483647" Enabled="true" CssProjectStructure="" CssIteration="" DeploymentItemsEditable="" WorkItemIds="" TraceLevel="None" CurrentRunConfig="运行设置1" Id="6ceea9dd-aedd-41f6-bd0a-49d8fa2769a3" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
   <Scenarios>
     <Scenario Name="列表查询测试" DelayBetweenIterations="0" PercentNewUsers="0" IPSwitching="false" TestMixType="PercentageOfUsersRunning" ApplyDistributionToPacingDelay="true" MaxTestIterations="0" DisableDuringWarmup="false" DelayStartTime="0" AllowedAgents="">
       <ThinkProfile Value="0" Pattern="Off" />
-      <LoadProfile Pattern="Step" InitialUsers="20" MaxUsers="100" StepUsers="50" StepDuration="1" StepRampTime="0" />
+      <LoadProfile Pattern="Step" InitialUsers="20" MaxUsers="200" StepUsers="50" StepDuration="1" StepRampTime="0" />
       <TestMix>
         <TestProfile Name="1-课程列表" Path="1-课程列表.webtest" Id="39f5afcc-d42a-46ae-81c5-e8ba96be479c" Percentage="60" Type="Microsoft.VisualStudio.TestTools.WebStress.DeclarativeWebTestElement, Microsoft.VisualStudio.QualityTools.LoadTest, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
         <TestProfile Name="2-约课页面" Path="2-约课页面.webtest" Id="9919495b-4afa-430f-a228-d3df9d29bbb8" Percentage="40" Type="Microsoft.VisualStudio.TestTools.WebStress.DeclarativeWebTestElement, Microsoft.VisualStudio.QualityTools.LoadTest, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
