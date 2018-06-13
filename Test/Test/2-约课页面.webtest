@@ -140,6 +140,11 @@
         <DataSourceTable Name="Token#csv" SelectColumns="SelectOnlyBoundColumns" AccessMethod="Sequential" />
       </Tables>
     </DataSource>
+    <DataSource Name="DataSource1" Provider="Microsoft.VisualStudio.TestTools.DataSource.CSV" Connection="|DataDirectory|\token.csv">
+      <Tables>
+        <DataSourceTable Name="token#csv" SelectColumns="SelectOnlyBoundColumns" AccessMethod="Sequential" />
+      </Tables>
+    </DataSource>
   </DataSources>
   <ContextParameters>
     <ContextParameter Name="org_id" Value="9" />
